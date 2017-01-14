@@ -1,0 +1,29 @@
+{
+  "name": "mean-app",
+  "version": "1.0.0",
+  "description": "MEAN stack application",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js" //script to start the app is either node app.js or npm start
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RakeshKB/NPM-MEAN"
+  },
+  "keywords": [
+    "mean"
+  ],
+  "author": "mail2rakeshkb@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RakeshKB/NPM-MEAN/issues"
+  },
+  "homepage": "https://github.com/RakeshKB/NPM-MEAN",
+  "dependencies": {
+    "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "mocha": "^3.2.0"
+  }
+}
